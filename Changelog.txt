@@ -251,3 +251,6 @@ header file. perhaps create a small library for publish/print sensor readings
 
 03/29/2018
 1: Completed ifDefPinDefs and found a couple array overuns when defining char Topic[32] for lastResetReason and PublishDallasTemps. LivingPatioClient was to long a hostname so changed those two functions to use char [48].
+
+03/30/2019
+WTTF?

@@ -4,6 +4,8 @@
   Ver 000711
   Just a test
   and test again
+  04/03/2019
+  Just to make sure
 
   Implements HTTP Update and subsribes to nodered looking for update. If Update == 1, then
   calls checkForUpdate.
@@ -141,8 +143,8 @@ extern "C" {
 }
 
 //*************************** Station and Platform definitions ********************
-//#define Wemos 1                                      
-#define TBOffice  1
+#define Wemos 1                                      
+//#define TBOffice  1
 //#define BethOffice 1
 //#define Liv_Patio  1
 //#define Danube 1  // The two outside temp sensor module
@@ -294,7 +296,7 @@ IPAddress dns(192, 168, 100, 1);
 const char* ssid = "BlueZebra";
 const char* password = "jY7bzy2XJv";
 //const char* IpAddr;
-const char* Version = "0.0.0.711";
+const char* Version = "0.0.0.711";  //FIND_VERSION
 //const int  = 0001;
 #ifdef Wemos
 const char* ahostname = "Wemos";
