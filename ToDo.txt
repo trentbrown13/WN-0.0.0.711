@@ -41,5 +41,8 @@ Step1: Manual Deep Sleep controled via mqtt (Node Red) with timer adjustment
 	deepSleepTime range 1hr - 12 hr; default:1hr
 Step2: Auto Deep Sleep triggered by VCC low voltage over period of time
 
+04/03
+Just bought a waveshare epaper display - fun ahead!
+
 
 
